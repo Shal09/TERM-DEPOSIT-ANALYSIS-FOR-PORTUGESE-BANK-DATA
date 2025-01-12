@@ -29,13 +29,13 @@ profit from it. Banks offer term deposit accounts in the terms that the customer
 withdraw their funds for a fixed period in return for a higher rate of interest paid on the account.
 
 
-A Portuguese bank data is collected from 2008 to 2013, the data is taken from the
-https://archive.ics.uci.edu/dataset/222/bank+marketing which is analyzed.
+A Portuguese bank data is collected from 2008 to 2013
 
 <img width="1035" alt="image" src="https://github.com/user-attachments/assets/c2b97f13-7643-4c3a-8eff-e47a68f85745" />
 
 
 **Data Understanding**
+
 Extracted data from UCI machine learning Repository.
 https://archive.ics.uci.edu/dataset/222/bank+marketing to conduct the analysis on the Portuguese
 banking institution with a goal to predict term deposit which is indicated with a categorical
@@ -44,16 +44,21 @@ Instances: 45211 and Features: 16
 
 
 **EXPECTED VALUE FRAMEWORK**
+
 Calculation of Value of the Cost to bank by taking the following:
 Loan Interest Rate = 6% (taken from the website of the bank)
 Term Deposit Rate = 3.2% (taken from the website of the bank)
 We are assuming that the customer is investing 35% of the balance.
 Call/sms cost = 1 Eur
-Total Profit Calculation by the bank for One customer:
+
+**Total Profit Calculation by the bank for One customer:
+**
 0.35*balance*(Loan Interest Rate - Term Deposit Rate) – Call/sms cost
 
 Total Net Profit incurred by the bank using the model :  5793813.94
+
 Mean profit(individual profit average) incurred by the bank :  1690.14
+
 False Negative:  479
 False Positive:  576
 True Negative:  2474
