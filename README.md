@@ -116,6 +116,6 @@ Cluster 3 shows a high conversion rate of 61.36%, making it a significant group 
 
 Clusters 1 and 2 also exhibit promising conversion rates, indicating opportunities for focused marketing strategies.
 
-Average account balance of people who deposit their money: 2003.46
+Average account balance of people who deposit their money:  €2003.46
 
 The clustering analysis provides valuable insights into customer behavior and can help the bank design targeted marketing strategies to increase term deposit subscriptions. Clusters with higher conversion rates should be prioritized for personalized campaigns.
