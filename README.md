@@ -47,8 +47,11 @@ Instances: 45211 and Features: 16
 
 Calculation of Value of the Cost to bank by taking the following:
 Loan Interest Rate = 6% (taken from the website of the bank)
+
 Term Deposit Rate = 3.2% (taken from the website of the bank)
+
 We are assuming that the customer is investing 35% of the balance.
+
 Call/sms cost = 1 Eur
 
 **Total Profit Calculation by the bank for One customer:
@@ -60,18 +63,31 @@ Total Net Profit incurred by the bank using the model :  5793813.94
 Mean profit(individual profit average) incurred by the bank :  1690.14
 
 False Negative:  479
+
 False Positive:  576
+
 True Negative:  2474
+
 True Positive:  2852
+
 TruePositiveRate/Sensitivity:  0.8561993395376764
+
 FalsePositiveRate/Fallout:  0.18885245901639344
+
 TrueNegativeRate/Specificity:  0.8111475409836065
+
 FalseNegativeRate/Miss:  0.14380066046232362
+
 Accuracy:  0.8346654129446796
+
 Precision:  0.8319719953325554
+
 Recall:  0.8561993395376764
+
 F1Score:  0.8439118212753366
+
 P(positive):  0.5220184923993104
+
 P(negative):  0.4779815076006895
 
 **Clustering**
