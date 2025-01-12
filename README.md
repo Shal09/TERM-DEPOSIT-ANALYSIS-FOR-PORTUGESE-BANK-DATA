@@ -45,6 +45,10 @@ banking institution with a goal to predict term deposit which is indicated with 
 response variable ‘y’- no or yes.
 Instances: 45211 and Features: 16
 
+**Accuracy score of the model**
+
+<img width="839" alt="image" src="https://github.com/user-attachments/assets/2486545a-ae85-46bc-b589-ae006c516076" />
+
 
 **EXPECTED VALUE FRAMEWORK**
 
