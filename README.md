@@ -52,79 +52,70 @@ Instances: 45211 and Features: 16
 
 **EXPECTED VALUE FRAMEWORK**
 
-Calculation of Value of the Cost to bank by taking the following:
-Loan Interest Rate = 6% (taken from the website of the bank)
+1. Profitability Calculation
+   
+The formula for total profit for a single customer:
 
-Term Deposit Rate = 3.2% (taken from the website of the bank)
+Profit=0.35×balance×(Loan Interest Rate−Term Deposit Rate)−Call/SMS cost
 
-We are assuming that the customer is investing 35% of the balance.
+Given:
 
-Call/sms cost = 1 Eur
+Loan Interest Rate = 6% = 0.06
 
-**Total Profit Calculation by the bank for One customer:
-**
-0.35*balance*(Loan Interest Rate - Term Deposit Rate) – Call/sms cost
+Term Deposit Rate = 3.2% = 0.032
 
-Total Net Profit incurred by the bank using the model :  5793813.94
+Investment Fraction = 0.35
 
-Mean profit(individual profit average) incurred by the bank :  1690.14
+Call/SMS Cost = €1
 
-False Negative:  479
+The profit for one customer depends on their balance.
 
-False Positive:  576
+Aggregate Metrics:
 
-True Negative:  2474
+Total Net Profit = €5,793,813.94
 
-True Positive:  2852
+Mean Profit per Customer = €1,690.14
 
-TruePositiveRate/Sensitivity:  0.8561993395376764
+These values indicate the overall profitability and average return on engaging with each customer, after accounting for engagement costs.
 
-FalsePositiveRate/Fallout:  0.18885245901639344
+2. Classification Metrics
+   
+The classification metrics assess the performance of a model used for decision-making:
 
-TrueNegativeRate/Specificity:  0.8111475409836065
+•	True Positive (TP): 2,852 — Customers correctly identified as profitable.
 
-FalseNegativeRate/Miss:  0.14380066046232362
+•	False Positive (FP): 576 — Non-profitable customers incorrectly classified as profitable.
 
-Accuracy:  0.8346654129446796
+•	True Negative (TN): 2,474 — Non-profitable customers correctly classified.
 
-Precision:  0.8319719953325554
+•	False Negative (FN): 479 — Profitable customers missed by the model.
 
-Recall:  0.8561993395376764
+<img width="670" alt="image" src="https://github.com/user-attachments/assets/cc038840-64c6-47e2-8490-c4746416203e" />
 
-F1Score:  0.8439118212753366
 
-P(positive):  0.5220184923993104
+3. Business Implications
+   
+Profitability: The positive net profit and mean profit suggest the model is effective in identifying customers that generate significant returns for the bank.
 
-P(negative):  0.4779815076006895
+Missed Opportunities (FN): The 479 false negatives highlight potential areas to improve the model’s recall, as these represent missed profitable customers.
+
+Overhead (FP): The 576 false positives represent costs incurred for targeting non-profitable customers.
+
+
 
 **Clustering**
 
-Number of data points in cluster 0 with y-coordinate 0: 3525
+ The objective is to understand customer behavior and identify groups with higher likelihoods of subscribing to term deposits. Below is a summary of the clustering results and analysis.
 
-Number of data points in cluster 0 with y-coordinate 1: 3459
-
-
-Number of data points in cluster 1 with y-coordinate 0: 158
-
-Number of data points in cluster 1 with y-coordinate 1: 227
+ <img width="745" alt="image" src="https://github.com/user-attachments/assets/34ee4570-e290-451f-92ba-72e17beeaff8" />
 
 
-Number of data points in cluster 2 with y-coordinate 0: 20
+Cluster 4 has the highest conversion rate (100%), though it contains only 2 data points.
 
-Number of data points in cluster 2 with y-coordinate 1: 29
+Cluster 3 shows a high conversion rate of 61.36%, making it a significant group for targeting potential customers.
 
-
-Number of data points in cluster 3 with y-coordinate 0: 655
-
-Number of data points in cluster 3 with y-coordinate 1: 1040
-
-
-Number of data points in cluster 4 with y-coordinate 0: 0
-
-Number of data points in cluster 4 with y-coordinate 1: 2
-
-
-Cluster and Conversion rate: [[0, 49.53], [1, 58.96], [2, 59.18], [3, 61.36], [4, 100.0]]
-
+Clusters 1 and 2 also exhibit promising conversion rates, indicating opportunities for focused marketing strategies.
 
 Average account balance of people who deposit their money: 2003.46
+
+The clustering analysis provides valuable insights into customer behavior and can help the bank design targeted marketing strategies to increase term deposit subscriptions. Clusters with higher conversion rates should be prioritized for personalized campaigns.
