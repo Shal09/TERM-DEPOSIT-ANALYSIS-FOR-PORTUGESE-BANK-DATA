@@ -91,26 +91,33 @@ P(positive):  0.5220184923993104
 P(negative):  0.4779815076006895
 
 **Clustering**
+
 Number of data points in cluster 0 with y-coordinate 0: 3525
+
 Number of data points in cluster 0 with y-coordinate 1: 3459
 
 
 Number of data points in cluster 1 with y-coordinate 0: 158
+
 Number of data points in cluster 1 with y-coordinate 1: 227
 
 
 Number of data points in cluster 2 with y-coordinate 0: 20
+
 Number of data points in cluster 2 with y-coordinate 1: 29
 
 
 Number of data points in cluster 3 with y-coordinate 0: 655
+
 Number of data points in cluster 3 with y-coordinate 1: 1040
 
 
 Number of data points in cluster 4 with y-coordinate 0: 0
+
 Number of data points in cluster 4 with y-coordinate 1: 2
 
 
 Cluster and Conversion rate: [[0, 49.53], [1, 58.96], [2, 59.18], [3, 61.36], [4, 100.0]]
+
 
 Average account balance of people who deposit their money: 2003.46
