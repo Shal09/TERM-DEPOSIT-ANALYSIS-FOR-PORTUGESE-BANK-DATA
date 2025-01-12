@@ -4,11 +4,14 @@
 
 
 **Aim of the project:**
-1. We want to create a system that helps us decide which customers to target in our
+
+1. To create a system that helps us decide which customers to target in our
 marketing campaigns for term deposits. This system will predict if a customer is likely to
 say "yes" or "no" to a term deposit offer.
+
 2. Calculated the Expected Value Framework which is the based on the Machine Learning
 Prediction and taking managerial decision.
+
 3. Clustering is explored to find customers who should be targeted for successful
 conversion.
 
